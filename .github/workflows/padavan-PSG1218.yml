@@ -1,7 +1,3 @@
-# # # # # # # # # # #
-#  自动构建 PSG1218
-#     花妆男
-# # # # # # # # # # #
 name: Padavan CI PSG1218
 on:
   # schedule:                           # 时间表
