@@ -68,10 +68,11 @@ echo "CONFIG_FIRMWARE_INCLUDE_SSSERVER=n" >>.config    # SS server
 echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=n" >>.config      # simple-obfs混淆插件,SS 开了才可以打开
 
 #  代理
-echo "CONFIG_FIRMWARE_INCLUDE_SRELAY=n" >>.config    # SOCKS proxy
+echo "CONFIG_FIRMWARE_INCLUDE_SRELAY=y" >>.config    # SOCKS proxy
 echo "CONFIG_FIRMWARE_INCLUDE_TUNSAFE=n" >>.config   # TUNSAFE
 echo "CONFIG_FIRMWARE_INCLUDE_SRELAY=n" >>.config    # srelay
 echo "CONFIG_FIRMWARE_INCLUDE_IPT2SOCKS=n" >>.config # IPT2
+echo "CONFIG_FIRMWARE_INCLUDE_KUMASOCKS=y" >>.config #
 
 # 广告
 echo "CONFIG_FIRMWARE_INCLUDE_ADBYBY=y" >>.config      # adbyby plus+
